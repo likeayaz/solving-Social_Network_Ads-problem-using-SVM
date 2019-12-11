@@ -3,7 +3,7 @@
 """
 Created on Wed Dec 11 00:50:08 2019
 
-@author: ayazurrahman
+@author: 
 """
 
 import numpy as np
@@ -12,7 +12,7 @@ import pandas as pd
 
 # Importing dataset
 
-dataset = pd.read_csv('/Users/ayazurrahman/ML/Social_Network_Ads.csv')
+dataset = pd.read_csv('Social_Network_Ads.csv')
 X = dataset.iloc[:,[2,3]].values
 y = dataset.iloc[:,4].values
 
